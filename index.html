@@ -10,6 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <style>
+        html {
+            font-size: 18px;
+            /* GLOBAL FONT BOOST */
+        }
+
         body {
             font-family: 'Poppins', sans-serif;
         }
@@ -31,8 +36,8 @@
     <!-- HEADER -->
     <header class="fixed top-0 w-full z-50 bg-black/40 backdrop-blur border-b border-white/10">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="font-bold text-indigo-400">VM</span>
-            <nav class="space-x-6 text-sm">
+            <span class="font-bold text-indigo-400 text-lg">VM</span>
+            <nav class="space-x-8 text-base font-medium">
                 <a href="#about" class="hover:text-indigo-400">About</a>
                 <a href="#skills" class="hover:text-indigo-400">Skills</a>
                 <a href="#projects" class="hover:text-indigo-400">Projects</a>
@@ -42,25 +47,28 @@
     </header>
 
     <!-- HERO -->
-    <section class="min-h-screen flex items-center pt-24">
-        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+    <section class="min-h-screen flex items-center pt-28">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <p class="text-indigo-400 text-sm font-semibold">BACKEND ENGINEER</p>
-                <h1 class="text-4xl md:text-5xl font-bold mt-3 leading-tight">
+                <p class="text-indigo-400 text-base font-semibold tracking-wide">
+                    BACKEND ENGINEER
+                </p>
+                <h1 class="text-5xl md:text-6xl font-bold mt-4 leading-tight">
                     PHP Laravel<br>
                     <span class="text-indigo-400">Developer</span>
                 </h1>
-                <p class="text-gray-400 mt-4 max-w-lg text-sm">
-                    6+ years experience building ERP systems, APIs,
-                    accounting integrations and scalable backend platforms.
+                <p class="text-gray-400 mt-6 max-w-xl text-lg leading-relaxed">
+                    6+ years experience building ERP systems, accounting integrations,
+                    and scalable backend platforms.
                 </p>
 
-                <div class="mt-6 flex gap-4">
+                <div class="mt-8 flex gap-5">
                     <a href="#projects"
-                        class="px-6 py-3 bg-indigo-600 rounded-xl hover:bg-indigo-700 neon transition text-sm">
+                        class="px-7 py-4 bg-indigo-600 rounded-xl hover:bg-indigo-700 neon transition text-base font-medium">
                         View Projects
                     </a>
-                    <a href="#contact" class="px-6 py-3 glass rounded-xl hover:border-indigo-400 transition text-sm">
+                    <a href="#contact"
+                        class="px-7 py-4 glass rounded-xl hover:border-indigo-400 transition text-base font-medium">
                         Contact
                     </a>
                 </div>
@@ -68,7 +76,7 @@
 
             <div class="hidden md:flex justify-center">
                 <div
-                    class="w-64 h-64 rounded-2xl glass neon flex items-center justify-center text-6xl font-bold text-indigo-400">
+                    class="w-72 h-72 rounded-2xl glass neon flex items-center justify-center text-7xl font-bold text-indigo-400">
                     VM
                 </div>
             </div>
@@ -76,148 +84,138 @@
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="py-14">
-        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8">
-            <div class="glass p-6 rounded-2xl">
-                <h2 class="text-xl font-bold text-indigo-400 mb-3">About Me</h2>
-                <p class="text-sm text-gray-300 leading-relaxed">
-                    I am a backend-focused PHP Laravel developer with over 6+ years of experience building scalable,
-                    business-critical web applications. My expertise lies in designing and developing ERP systems,
-                    RESTful APIs, and complex backend workflows that power real-world products.
+    <section id="about" class="py-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
+            <div class="glass p-8 rounded-2xl">
+                <h2 class="text-2xl font-bold text-indigo-400 mb-4">About Me</h2>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    I am a backend-focused PHP Laravel developer with over 6+ years of experience
+                    building scalable, business-critical web applications. My expertise lies in
+                    designing ERP systems, RESTful APIs, and complex backend workflows that power
+                    real-world products.
                 </p>
             </div>
 
-            <div class="grid grid-cols-2 gap-4">
-                <div class="glass p-4 rounded-xl text-center">
-                    <p class="text-2xl font-bold text-indigo-400">6+</p>
-                    <p class="text-xs text-gray-400">Years Exp</p>
+            <div class="grid grid-cols-2 gap-5">
+                <div class="glass p-5 rounded-xl text-center">
+                    <p class="text-3xl font-bold text-indigo-400">6+</p>
+                    <p class="text-sm text-gray-400">Years Experience</p>
                 </div>
-                <div class="glass p-4 rounded-xl text-center">
-                    <p class="text-2xl font-bold text-indigo-400">15+</p>
-                    <p class="text-xs text-gray-400">Projects</p>
+                <div class="glass p-5 rounded-xl text-center">
+                    <p class="text-3xl font-bold text-indigo-400">15+</p>
+                    <p class="text-sm text-gray-400">Projects Delivered</p>
                 </div>
-                <div class="glass p-4 rounded-xl text-center">
-                    <p class="text-2xl font-bold text-indigo-400">3+</p>
-                    <p class="text-xs text-gray-400">ERP Platforms</p>
+                <div class="glass p-5 rounded-xl text-center">
+                    <p class="text-3xl font-bold text-indigo-400">3+</p>
+                    <p class="text-sm text-gray-400">ERP Platforms</p>
                 </div>
-                <div class="glass p-4 rounded-xl text-center">
-                    <p class="text-2xl font-bold text-indigo-400">5+</p>
-                    <p class="text-xs text-gray-400">Integrations</p>
+                <div class="glass p-5 rounded-xl text-center">
+                    <p class="text-3xl font-bold text-indigo-400">5+</p>
+                    <p class="text-sm text-gray-400">Integrations</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- SKILLS -->
-    <section id="skills" class="py-14 bg-black/30">
+    <section id="skills" class="py-20 bg-black/30">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-xl font-bold text-indigo-400 mb-6">Core Skills</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                <div class="glass p-4 rounded-xl">Laravel</div>
-                <div class="glass p-4 rounded-xl">Yii2</div>
-                <div class="glass p-4 rounded-xl">MySQL</div>
-                <div class="glass p-4 rounded-xl">REST APIs</div>
-                <div class="glass p-4 rounded-xl">JavaScript / AJAX / jQuery</div>
-                <div class="glass p-4 rounded-xl">Tailwind CSS</div>
-                <div class="glass p-4 rounded-xl">Alpine.js</div>
+            <h2 class="text-2xl font-bold text-indigo-400 mb-8">Core Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-5 text-base">
+                <div class="glass p-5 rounded-xl">Laravel</div>
+                <div class="glass p-5 rounded-xl">Yii2</div>
+                <div class="glass p-5 rounded-xl">MySQL</div>
+                <div class="glass p-5 rounded-xl">REST APIs</div>
+                <div class="glass p-5 rounded-xl">JavaScript / AJAX / jQuery</div>
+                <div class="glass p-5 rounded-xl">Tailwind CSS</div>
+                <div class="glass p-5 rounded-xl">Alpine.js</div>
             </div>
         </div>
     </section>
 
     <!-- PROJECTS -->
-    <section id="projects" class="py-14">
+    <section id="projects" class="py-20">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-xl font-bold text-indigo-400 mb-6">Key Projects</h2>
+            <h2 class="text-2xl font-bold text-indigo-400 mb-8">Key Projects</h2>
 
-            <div class="grid md:grid-cols-3 gap-5">
+            <div class="grid md:grid-cols-3 gap-6">
 
-                <div class="glass p-5 rounded-2xl hover:neon transition">
-                    <h3 class="font-semibold">ERP System</h3>
-                    <p class="text-sm text-gray-400 mt-2">
-                        A custom-built ERP platform designed to manage end-to-end business operations including
-                        inventory, purchase orders, proforma invoices, billing, supplier management, and reporting. The
-                        system integrates with Xero for accounting synchronization and supports role-based access for
-                        different business users.
+                <div class="glass p-6 rounded-2xl hover:neon transition">
+                    <h3 class="text-lg font-semibold">ERP System</h3>
+                    <p class="text-base text-gray-400 mt-3 leading-relaxed">
+                        Custom ERP managing inventory, purchase orders, billing,
+                        supplier workflows, and Xero accounting integration.
                     </p>
-                    <p class="text-xs text-indigo-400 mt-2">Laravel • MySQL • Xero API • JavaScript • AJAX • jQuery</p>
-                </div>
-
-                <div class="glass p-5 rounded-2xl hover:neon transition">
-                    <h3 class="font-semibold">Partner Portal System</h3>
-                    <p class="text-sm text-gray-400 mt-2">
-                        Developed a partner portal to manage partner companies, assigned sales persons, client details,
-                        and sales activities. The platform enables tracking of partner performance, deal progress, and
-                        revenue data, with integration to Zoho CRM for synchronized sales records.
-                    </p>
-                    <p class="text-xs text-indigo-400 mt-2">Laravel • AJAX • MySQL • Zoho CRM API
-                        • Tailwind CSS • Alpine.js
+                    <p class="text-sm text-indigo-400 mt-3">
+                        Laravel • MySQL • Xero API
                     </p>
                 </div>
 
-                <div class="glass p-5 rounded-2xl hover:neon transition">
-                    <h3 class="font-semibold">Employee Tracking System</h3>
-                    <p class="text-sm text-gray-400 mt-2">
-                        Developed an internal employee tracking platform to manage employee details, project
-                        assignments, working hours, free-time allocation, and resource planning. The system includes
-                        client records and sales person tracking, helping teams optimize workforce utilization and
-                        improve project planning.
+                <div class="glass p-6 rounded-2xl hover:neon transition">
+                    <h3 class="text-lg font-semibold">Partner Portal</h3>
+                    <p class="text-base text-gray-400 mt-3 leading-relaxed">
+                        Partner & company management with sales person tracking,
+                        deal monitoring, and Zoho CRM synchronization.
                     </p>
-                    <p class="text-xs text-indigo-400 mt-2">Laravel • AJAX • jQuery • JavaScript • MySQL</p>
+                    <p class="text-sm text-indigo-400 mt-3">
+                        Laravel • Zoho CRM • APIs
+                    </p>
                 </div>
 
-                <div class="glass p-5 rounded-2xl hover:neon transition">
-                    <h3 class="font-semibold">Pharmaceutical Platform</h3>
-                    <p class="text-sm text-gray-400 mt-2">
-                        Developed a dynamic pharmaceutical website with a modular architecture that allows clients to
-                        add, update, or manage website modules at any time—similar to a CMS like WordPress. The platform
-                        supports flexible content management, product sections, and business-specific modules without
-                        developer dependency.
+                <div class="glass p-6 rounded-2xl hover:neon transition">
+                    <h3 class="text-lg font-semibold">Employee Tracking System</h3>
+                    <p class="text-base text-gray-400 mt-3 leading-relaxed">
+                        Employee profiles, project allocation, working hours,
+                        free-time tracking, and resource planning.
                     </p>
-                    <p class="text-xs text-indigo-400 mt-2">Laravel • AJAX • jQuery • JavaScript • MySQL</p>
+                    <p class="text-sm text-indigo-400 mt-3">
+                        Laravel • AJAX • MySQL
+                    </p>
                 </div>
 
-                <div class="glass p-5 rounded-2xl hover:neon transition">
-                    <h3 class="font-semibold">Web Community Platform</h3>
-                    <p class="text-sm text-gray-400 mt-2">
-                        Developed a dynamic, multi-community web platform that allows unlimited community instances to
-                        be created by cloning a base system and customizing the community name, branding, and content.
-                        Each community operates independently while sharing a common codebase. Also built REST APIs to
-                        support mobile applications for the platform.
+                <div class="glass p-6 rounded-2xl hover:neon transition">
+                    <h3 class="text-lg font-semibold">Pharmaceutical Platform</h3>
+                    <p class="text-base text-gray-400 mt-3 leading-relaxed">
+                        Modular CMS-style pharmaceutical website allowing clients
+                        to add or manage modules dynamically.
                     </p>
-                    <p class="text-xs text-indigo-400 mt-2">Laravel • AJAX • jQuery • JavaScript • MySQL • REST API •
-                        Firebase</p>
+                    <p class="text-sm text-indigo-400 mt-3">
+                        Laravel • Custom CMS
+                    </p>
                 </div>
 
-                <div class="glass p-5 rounded-2xl hover:neon transition">
-                    <h3 class="font-semibold">Manpower & Tingum App</h3>
-                    <p class="text-sm text-gray-400 mt-2">
-                        Developed backend APIs for a location-based service provider application that allows customers
-                        to book nearby service professionals. The APIs handle service discovery, booking workflows, and
-                        real-time data exchange between customers and service providers.
+                <div class="glass p-6 rounded-2xl hover:neon transition">
+                    <h3 class="text-lg font-semibold">Web Community Platform</h3>
+                    <p class="text-base text-gray-400 mt-3 leading-relaxed">
+                        Multi-community platform with unlimited clones and mobile
+                        app APIs from a single codebase.
                     </p>
-                    <p class="text-xs text-indigo-400 mt-2">Laravel • MySQL • REST API • Firebase</p>
+                    <p class="text-sm text-indigo-400 mt-3">
+                        Laravel • REST APIs
+                    </p>
                 </div>
 
-                <div class="glass p-5 rounded-2xl hover:neon transition">
-                    <h3 class="font-semibold">LMS (Learning Management System)</h3>
-                    <p class="text-sm text-gray-400 mt-2">
-                        Developed an LMS module integrated into the portal platform, providing dashboards for
-                        learners, course management, learner assignment, assessments, and learning libraries. The system
-                        enables administrators to manage courses, assign learners, track progress, and evaluate
-                        performance through assessments.
+                <div class="glass p-6 rounded-2xl hover:neon transition">
+                    <h3 class="text-lg font-semibold">Manpower & Tingum App</h3>
+                    <p class="text-base text-gray-400 mt-3 leading-relaxed">
+                        Backend APIs for location-based service booking similar to
+                        on-demand delivery platforms.
                     </p>
-                    <p class="text-xs text-indigo-400 mt-2">Laravel • MySQL • Tailwind CSS • Alpine.js</p>
+                    <p class="text-sm text-indigo-400 mt-3">
+                        Laravel • REST API • Firebase
+                    </p>
                 </div>
+
             </div>
         </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="py-14 bg-black/30">
+    <section id="contact" class="py-20 bg-black/30">
         <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-xl font-bold text-indigo-400 mb-4">Contact</h2>
+            <h2 class="text-2xl font-bold text-indigo-400 mb-6">Contact</h2>
 
-            <div class="glass p-6 rounded-2xl text-sm space-y-2">
+            <div class="glass p-8 rounded-2xl text-lg space-y-3">
                 <p>📞 +91 8866004118</p>
                 <p>📧 vandanmakwana7590@gmail.com</p>
                 <p>
@@ -230,7 +228,7 @@
         </div>
     </section>
 
-    <footer class="py-4 text-center text-xs text-gray-500">
+    <footer class="py-6 text-center text-sm text-gray-500">
         © 2025 Vandan Makwana
     </footer>
 
